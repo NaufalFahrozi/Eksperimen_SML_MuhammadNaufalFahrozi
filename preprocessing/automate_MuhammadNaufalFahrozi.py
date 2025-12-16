@@ -115,7 +115,7 @@ if __name__ == "__main__":
     current_dir = os.path.dirname(os.path.abspath(__file__))
     parent_dir = os.path.dirname(current_dir)
     
-    input_path = os.path.join(parent_dir, 'telco_churn.csv')
+    input_path = os.path.join(parent_dir, 'telco_churn_raw.csv')
     output_dir = current_dir
     
     X_train, X_test, y_train, y_test = preprocess_pipeline(input_path, output_dir)
